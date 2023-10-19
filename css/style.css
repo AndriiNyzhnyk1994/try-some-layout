@@ -19,7 +19,7 @@ a {
 }
 
 .header__inner {
-    height: 87px;
+    min-height: 87px;
     display: flex;
     justify-content: space-between;
     align-items: center;    
