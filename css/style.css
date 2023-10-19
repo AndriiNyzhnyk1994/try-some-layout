@@ -79,9 +79,35 @@ body {
     text-transform: uppercase;
 }
 
-.top-info__descr {}
+.top-info__descr {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 35px;
+    /* margin-bottom здесь нужен чтобы оттолкнуть блок под ним ещё ниже на 35px 
+    (ооталкиваем список - top-info__list) */
+}
 
-.top-info__list {}
+.top-info__descr span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    /* display: block чтобы элемент занимал всю строку*/
+}
+
+.top-info__list {
+    list-style: none;
+    margin-bottom: 50px;
+    /* здесь margin-bottom отталкивает вниз блок .top-info__btn */
+}
+
+.top-info__list li {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 3px;
+}
 
 .top-info__btn {}
 
