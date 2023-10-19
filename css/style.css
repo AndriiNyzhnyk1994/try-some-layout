@@ -7,6 +7,11 @@ a {
     text-decoration: none;
 }
 
+
+.header {
+    border-top: 1px solid #3983e5;
+}
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -14,8 +19,10 @@ a {
 }
 
 .header__inner {
+    height: 87px;
     display: flex;
     justify-content: space-between;
+    align-items: center;    
 }
 
 .menu__list {
@@ -27,9 +34,12 @@ a {
     margin-left: 38px;
 }
 
-
+ 
 .menu__list a {
-    
+    font-size: 14px;
+    color: #2f3f54;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
