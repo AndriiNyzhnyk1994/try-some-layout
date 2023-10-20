@@ -116,7 +116,21 @@ body {
     Теперь будет логически понятно разделение длинных и коротких элементов.
     В то же время короткие элементы останутся без изменений (как на макете)
     */
+    position: relative;
+    padding-left: 24px;
 }
+/* ▼ ▼ ▼ иконка галочки слева от li  */
+.top-info__list li::before {
+    content: "";
+    background-image: url(../images/list-icon.png);
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 
 .top-info__btn {}
 
